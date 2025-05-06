@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise1 Project.");
+        Console.WriteLine("Hello World!");
+         Console.WriteLine("Hello World!");
+        Console.WriteLine("This is in C#");
+
+        Console.write("what is your favorite color?");
+        string color = Console.Readline();
+        Console.WriteLine("Your color is "+color);
     }
 }
